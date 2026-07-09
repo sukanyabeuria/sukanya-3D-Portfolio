@@ -3,11 +3,11 @@
 @theme {
   --font-display: "Inter", "SF Pro Display", "Segoe UI", system-ui, sans-serif;
   --font-body: "Inter", "SF Pro Text", "Segoe UI", system-ui, sans-serif;
-  --color-night: #050505;
-  --color-purple: #6c3bff;
-  --color-pink: #ff4fbf;
-  --color-violet: #b68cff;
-  --shadow-premium: 0 30px 100px rgba(108, 59, 255, 0.28);
+  --color-night: #090010;
+  --color-purple: #a855f7;
+  --color-pink: #ff2ea6;
+  --color-violet: #b946ef;
+  --shadow-premium: 0 30px 100px rgba(255, 46, 166, 0.35);
 }
 
 :root {

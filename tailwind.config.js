@@ -6,7 +6,7 @@ export default {
         night: "#050505",
         purple: "#6C3BFF",
         pink: "#FF4FBF",
-        violet: "#B68CFF",
+        violet: "#4b3079",
       },
       borderRadius: {
         luxury: "24px",

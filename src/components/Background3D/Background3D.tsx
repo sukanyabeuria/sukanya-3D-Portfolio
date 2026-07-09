@@ -24,15 +24,15 @@ function NeonObject() {
       <Float speed={1.2} rotationIntensity={0.42} floatIntensity={0.65}>
         <mesh ref={knotRef}>
           <torusKnotGeometry args={[0.72, 0.16, 180, 16]} />
-          <meshPhysicalMaterial color="#6C3BFF" emissive="#6C3BFF" emissiveIntensity={0.8} roughness={0.2} metalness={0.65} clearcoat={1} />
+          <meshPhysicalMaterial color="#FF2EA6" emissive="#FF2EA6" emissiveIntensity={0.8} roughness={0.2} metalness={0.65} clearcoat={1} />
         </mesh>
         <mesh rotation={[Math.PI / 2, 0, 0]}>
           <torusGeometry args={[1.65, 0.01, 16, 160]} />
-          <meshBasicMaterial color="#FF4FBF" transparent opacity={0.48} />
+          <meshBasicMaterial color="#FF7AD9" transparent opacity={0.48} />
         </mesh>
         <mesh rotation={[0.7, 0.2, 0.7]}>
           <torusGeometry args={[2.08, 0.008, 16, 160]} />
-          <meshBasicMaterial color="#B68CFF" transparent opacity={0.34} />
+          <meshBasicMaterial color="#A855F7" transparent opacity={0.34} />
         </mesh>
       </Float>
     </group>

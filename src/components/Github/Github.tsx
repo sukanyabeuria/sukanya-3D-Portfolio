@@ -63,8 +63,8 @@ export default function Github() {
                 <AreaChart data={commitData} margin={{ left: -24, right: 8, top: 16, bottom: 0 }}>
                   <defs>
                     <linearGradient id="commitGradient" x1="0" x2="0" y1="0" y2="1">
-                      <stop offset="0%" stopColor="#B68CFF" stopOpacity={0.78} />
-                      <stop offset="100%" stopColor="#6C3BFF" stopOpacity={0.04} />
+                      <stop offset="0%" stopColor="#FF2EA6" stopOpacity={0.78} />
+                      <stop offset="100%" stopColor="#A855F7" stopOpacity={0.04} />
                     </linearGradient>
                   </defs>
                   <XAxis dataKey="month" stroke="rgba(255,255,255,0.45)" axisLine={false} tickLine={false} />
@@ -88,7 +88,7 @@ export default function Github() {
                 <XAxis dataKey="name" stroke="rgba(255,255,255,0.45)" axisLine={false} tickLine={false} />
                 <YAxis stroke="rgba(255,255,255,0.35)" axisLine={false} tickLine={false} />
                 <Tooltip contentStyle={{ background: "rgba(5,5,5,0.92)", border: "1px solid rgba(255,255,255,0.12)", borderRadius: 16, color: "#fff" }} />
-                <Bar dataKey="value" radius={[14, 14, 4, 4]} fill="#6C3BFF" />
+                <Bar dataKey="value" radius={[14, 14, 4, 4]} fill="#FF2EA6" />
               </BarChart>
             </ResponsiveContainer>
           </div>
