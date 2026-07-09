@@ -1,7 +1,7 @@
 export const profile = {
   name: "Sukanya Beuria",
   email: "sukanyabeuriasukanya@gmail.com",
-  phone: "+91 00000 00000",
+  phone: "+91 637171 3171",
   location: "India",
   github: "https://github.com/Sukanyabeuria",
   linkedin: "https://www.linkedin.com/in/sukanya-beuria-2057ab2ba",

@@ -12,7 +12,7 @@ type SubmitStatus = "idle" | "sending" | "success" | "error";
 
 const contactItems = [
   { label: "Email", value: profile.email, href: `mailto:${profile.email}`, icon: FaEnvelope },
-  { label: "Phone", value: profile.phone, href: "tel:+910000000000", icon: FaPhoneAlt },
+  { label: "Phone", value: profile.phone, href: "tel:+916371713171", icon: FaPhoneAlt },
   { label: "GitHub", value: "Sukanyabeuria", href: profile.github, icon: FaGithub },
   { label: "LinkedIn", value: "Sukanya Beuria", href: profile.linkedin, icon: FaLinkedinIn },
   { label: "Location", value: profile.location, href: "#contact", icon: FaMapMarkerAlt },
